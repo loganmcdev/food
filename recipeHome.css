@@ -1,0 +1,35 @@
+#main{
+    display: grid;
+    grid-template-rows: 7em 2em minmax(20em, auto) 25em 2em;
+    animation: fadeIn 1s ease-out forwards;
+    color: white;
+    background-image: radial-gradient(circle,rgba(222,255,255,0.01),rgba(255, 100, 0, 0.5)1em,rgba(255, 0, 0, 0.5)2em,rgba(130, 0, 125,0.5));
+    background-size: 0.1em 120em;
+}
+#searchTitle{
+    align-content: center;
+    text-align: center;
+}
+#inputDiv{
+    text-align: center;
+}
+#searchBox{
+    justify-self: center;
+}
+#searchBox>ul{
+    margin-left: -7em;
+    padding-bottom: 0.3em ;
+    font-size: 15pt;
+}
+#footer{
+    align-content: end;
+    grid-row-end: -1;
+}
+*>a{
+    color: white;
+    text-decoration: none;
+}
+@keyframes fadeIn{
+    from{opacity: 0; padding-top: 20pt;}
+    to{opacity: 1; padding-top: 0;}
+}

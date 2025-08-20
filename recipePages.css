@@ -1,0 +1,45 @@
+#main{
+    display: grid;
+    grid-template-rows: repeat(4, auto) 2em;
+    grid-template-columns: repeat(7, 1fr);
+    color: white;
+    background-image: radial-gradient(circle,rgba(255, 100, 0, 0.4)0.1vw,rgba(255, 30, 0, 0.4)5vw,rgba(255, 70, 120,0.7)15vw,rgba(130, 0, 125,0.6)50vw,rgba(70, 14, 70,0.6)120vw);
+    background-size: 200vw 0.01vh;
+    background-position: -110vw;
+}
+#title{
+    grid-column: 1 / -1;
+    font-size: 35pt;
+}
+#ingredientsBlock{
+    grid-column: 3 / 7;
+    grid-row-start: 2;
+    padding: 10pt;
+    border-radius: 20pt;
+    background-color: rgba(90, 80, 180, 0.3);
+    margin-bottom: 20pt;
+}
+#instructionsBlock{
+    grid-column: 1 / 6;
+    grid-row-start: 3;
+    padding: 10pt;
+    border-radius: 20pt;
+    background-color: rgba(80, 60, 160,0.4);
+    margin-bottom: 20pt;
+}
+#notesBlock{
+    grid-column: 2 / -1;
+    grid-row-start: 4;
+    padding: 10pt;
+    border-radius: 20pt;
+    background-color: rgba(70, 40, 140, 0.5);
+    margin-bottom: 20pt;
+}
+#footer{
+    align-content: end;
+    grid-row-end: -1;
+}
+*>a{
+    color: white;
+    text-decoration: none;
+}
