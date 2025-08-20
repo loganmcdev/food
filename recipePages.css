@@ -19,7 +19,7 @@
     margin-bottom: 20pt;
 }
 #instructionsBlock{
-    grid-column: 1 / 6;
+    grid-column: 1 / -1;
     grid-row-start: 3;
     padding: 10pt;
     border-radius: 20pt;
