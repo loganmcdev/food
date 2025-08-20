@@ -3,7 +3,7 @@
     grid-template-rows: repeat(4, auto) 2em;
     grid-template-columns: repeat(7, 1fr);
     color: white;
-    background-image: radial-gradient(circle,rgba(255, 100, 0, 0.4)0.1em,rgba(255, 30, 0, 0.4)5em,rgba(255, 70, 120,0.7)15em,rgba(130, 0, 125,0.6)50em,rgba(70, 14, 70,0.6)120em);
+    background-color: grey;
     background-size: 200vw 0.01vh;
     background-position: -110vw;
 }
