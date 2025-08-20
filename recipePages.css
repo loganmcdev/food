@@ -4,8 +4,7 @@
     grid-template-columns: repeat(7, 1fr);
     color: white;
     background-color: grey;
-    background-size: 200vw 0.01vh;
-    background-position: -110vw;
+
 }
 #title{
     grid-column: 1 / -1;
